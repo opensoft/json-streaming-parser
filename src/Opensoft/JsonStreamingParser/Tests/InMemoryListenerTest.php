@@ -3,6 +3,7 @@ namespace Opensoft\JsonStreamingParser\Tests;
 
 use Opensoft\JsonStreamingParser\InMemoryListener;
 use Opensoft\JsonStreamingParser\Parser;
+use Opensoft\JsonStreamingParser\Tests\Data\Stream;
 
 class InMemoryListenerTest extends \PHPUnit_Framework_TestCase
 {
