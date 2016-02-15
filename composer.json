@@ -2,7 +2,7 @@
     "name": "opensoft/json-streaming-parser",
     "description": "A psr-7 streaming parser for JSON in PHP",
     "keywords": ["json", "parser", "streaming", "psr-7"],
-    "homepage": "https://github.com/opensoft/jsonstreamingparser",
+    "homepage": "https://github.com/opensoft/json-streaming-parser",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
