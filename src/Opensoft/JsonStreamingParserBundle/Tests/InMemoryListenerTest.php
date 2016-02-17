@@ -1,9 +1,9 @@
 <?php
-namespace Opensoft\JsonStreamingParser\Tests;
+namespace Opensoft\JsonStreamingParserBundle\Tests;
 
-use Opensoft\JsonStreamingParser\InMemoryListener;
-use Opensoft\JsonStreamingParser\Parser;
-use Opensoft\JsonStreamingParser\Tests\Data\Stream;
+use Opensoft\JsonStreamingParserBundle\Listener\InMemoryListener;
+use Opensoft\JsonStreamingParserBundle\Service\Parser;
+use Opensoft\JsonStreamingParserBundle\Tests\Data\Stream;
 
 class InMemoryListenerTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,8 +25,8 @@ class InMemoryListenerTest extends \PHPUnit_Framework_TestCase
         $stream = new Stream(fopen($testJson, 'r'));
 
         try {
-            $parser = new Parser($stream, $listener);
-            $parser->parse();
+            $parser = new Parser();
+            $parser->parse($stream, $listener);
             $stream->close();
         } catch (\Exception $e) {
             $stream->close();

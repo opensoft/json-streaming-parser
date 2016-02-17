@@ -1,5 +1,5 @@
 <?php
-namespace Opensoft\JsonStreamingParser;
+namespace Opensoft\JsonStreamingParserBundle\Listener;
 
 /**
  * This basic implementation of a listener simply constructs an in-memory
@@ -98,5 +98,4 @@ class InMemoryListener implements ListenerInterface
     }
 
     public function endDocument() {}
-    public function whitespace($whitespace) {}
 }

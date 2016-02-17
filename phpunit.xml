@@ -11,7 +11,7 @@
          bootstrap                      ="./vendor/autoload.php">
     <testsuites>
         <testsuite name="All">
-            <directory>src/Opensoft/JsonStreamingParser/Tests</directory>
+            <directory>src/Opensoft/JsonStreamingParserBundle/Tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>

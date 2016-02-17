@@ -1,5 +1,5 @@
 <?php
-namespace Opensoft\JsonStreamingParser\Exception;
+namespace Opensoft\JsonStreamingParserBundle\Exception;
 
 class ParsingException extends \Exception
 {

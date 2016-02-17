@@ -1,5 +1,5 @@
 <?php
-namespace Opensoft\JsonStreamingParser;
+namespace Opensoft\JsonStreamingParserBundle\Listener;
 
 interface ListenerInterface
 {
@@ -46,10 +46,4 @@ interface ListenerInterface
    * @return mixed
    */
   public function value($value);
-
-  /**
-   * @param $whitespace
-   * @return mixed
-   */
-  public function whitespace($whitespace);
 }

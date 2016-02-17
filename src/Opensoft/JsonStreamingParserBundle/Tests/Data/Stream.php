@@ -7,7 +7,7 @@
  * @license   https://github.com/zendframework/zend-diactoros/blob/master/LICENSE.md New BSD License
  */
 
-namespace Opensoft\JsonStreamingParser\Tests\Data;
+namespace Opensoft\JsonStreamingParserBundle\Tests\Data;
 
 use InvalidArgumentException;
 use RuntimeException;

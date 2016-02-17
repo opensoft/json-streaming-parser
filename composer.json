@@ -2,11 +2,12 @@
     "name": "opensoft/json-streaming-parser",
     "description": "A psr-7 streaming parser for JSON in PHP",
     "keywords": ["json", "parser", "streaming", "psr-7"],
-    "homepage": "https://github.com/opensoft/json-streaming-parser",
+    "homepage": "https://github.com/opensoft/jsonstreamingparser",
     "type": "library",
     "license": "MIT",
     "require": {
         "php": ">=5.3",
+        "symfony/framework-bundle": "~2.1",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
