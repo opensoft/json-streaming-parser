@@ -8,7 +8,7 @@
  * Opensoft is prohibited.
  */
 
-namespace Opensoft\Onp\Bundle\ApiBundle;
+namespace Opensoft\JsonStreamingParserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
