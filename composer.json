@@ -17,5 +17,9 @@
         "psr-0": {
             "": "src/"
         }
+    },
+    "suggest": {
+        "symfony/psr-http-message-bridge": "for converting Symfony2 request to stream with param converter",
+        "zendframework/zend-diactoros": "for psr-7 implementation of streams"
     }
 }
